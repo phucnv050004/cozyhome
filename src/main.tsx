@@ -5,7 +5,8 @@ import './index.css'
 import { BrowserRouter } from "react-router-dom";
 import axios from "axios";
 axios.defaults.baseURL = "http://localhost:3000";
-
+import { configureAxios } from './config/axios.ts';
+configureAxios();
 import "react-toastify/ReactToastify.min.css";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
