@@ -5,7 +5,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "echo 'Build script executed!'"
   },
   "keywords": [],
   "author": "phucnv",
